@@ -269,6 +269,9 @@ def crawl_subprocess_long(opts_temp_filepath, scan, count, progress):
 
     frame_ind_to_frame_id = {}
     for frame_ind, frame_line in enumerate(valid_frames):
+        print(f'frame_ind: {frame_ind}')
+        print(f'frame_line: {frame_line}')
+        print(f'len(frame_ind_to_frame_id): {len(frame_ind_to_frame_id)}')
         frame_ind_to_frame_id[frame_ind] = frame_line.strip().split(" ")[1]
 
     poses = []

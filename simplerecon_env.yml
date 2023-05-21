@@ -12,6 +12,8 @@ dependencies:
   - pillow # image op
   - tensorboard # logging
   - matplotlib # plotting
+  - opencv
+  - pypng
   - pip
   - pip:
     - kornia==0.6.7 # gradients
