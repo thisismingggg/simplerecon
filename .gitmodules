@@ -1,0 +1,3 @@
+[submodule "submodule/TransformerFusion"]
+	path = submodule/TransformerFusion
+	url = https://github.com/AljazBozic/TransformerFusion.git
